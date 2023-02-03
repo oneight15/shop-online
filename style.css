@@ -16,7 +16,7 @@ body {
     'Helvetica Neue', 
     sans-serif;
   font-size: 22px;
-  line-height: 33px;
+  line-height: 150%;
   color: #2d2d2d;
 }
 
@@ -41,7 +41,6 @@ ol {
 
 .article {
   padding-top: 100px;
-
 }
 
 .title {
@@ -56,7 +55,13 @@ ol {
   margin-bottom: 50px;
 }
 
+.navigation-item {
+  font-size: 16px;
+}
+
 .content-image {
+  width: 1095px;
+  height: 560px;
   margin-bottom: 50px;
 }
 
@@ -64,17 +69,22 @@ ol {
   margin-bottom: 50px;
 }
 
+.advice-title {
+  font-size: inherit;
+}
+
 .advice-subtitle {
   margin-bottom: 50px;
+}
+
+.every-day-title {
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 .every-day-subtitle {
   margin-bottom: 50px;
 }
-
-
-
-
 
 .visually-hidden {
   clip: rect(0 0 0 0);
