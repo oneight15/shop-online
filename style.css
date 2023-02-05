@@ -20,14 +20,9 @@ body {
   color: #2d2d2d;
 }
 
-a {
-  color: #525252;
-  text-decoration: none;
-}
-
-ol {
-  color: #525252;
-  list-style-position: inside;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .wrapper {
@@ -55,13 +50,20 @@ ol {
   margin-bottom: 50px;
 }
 
+.navigation-list {
+  list-style-position: inside;
+}
+
 .navigation-item {
   font-size: 16px;
 }
 
+.navigation-link {
+  color: #525252;
+  text-decoration: none;
+}
+
 .content-image {
-  width: 1095px;
-  height: 560px;
   margin-bottom: 50px;
 }
 
@@ -73,17 +75,13 @@ ol {
   font-size: inherit;
 }
 
-.advice-subtitle {
+.every-day {
   margin-bottom: 50px;
 }
 
 .every-day-title {
   font-size: inherit;
   font-weight: inherit;
-}
-
-.every-day-subtitle {
-  margin-bottom: 50px;
 }
 
 .visually-hidden {
