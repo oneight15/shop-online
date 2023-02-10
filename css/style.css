@@ -1,0 +1,6 @@
+@import url("normalize.css");
+@import url("global.css");
+@import url("article/article.css");
+@import url("navigation/navigation.css");
+@import url("advice/advice.css");
+@import url("section/section.css");

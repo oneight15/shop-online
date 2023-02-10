@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Droid Serif";
+  src: local("Droid Serif"), local("Droid-Serif-Regular"), url("fonts/DroidSerif.woff2") format("woff2"),
+    url("fonts/DroidSerif.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Droid Serif";
+  src: local("Droid Serif Bold"), local("Droid-Serif-Bold"), url("fonts/DroidSerif-Bold.woff2") format("woff2"),
+    url("fonts/DroidSerif-Bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+
+html {
+  position: relative;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Droid Serif", "Times New Roman", serif;
+  font-size: 22px;
+  line-height: 150%;
+  color: #2d2d2d;
+}
+
+img, svg {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+  margin: 0;
+}
+
+.container {
+  max-width: 1920px;
+  padding: 0 75px;
+}
+
+.small-container {
+  max-width: 1095px;
+}
+

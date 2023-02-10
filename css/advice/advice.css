@@ -1,0 +1,20 @@
+.advice {
+  padding: 25px 0;
+}
+
+.advice__content-image {
+  margin-bottom: 23px;
+}
+
+.advice__content-image {
+  margin-bottom: 23px;
+}
+
+.advice__content-image_padding {
+  padding-top: 25px;
+}
+
+.advice__title {
+  font-weight: 700;
+  font-size: inherit;
+}

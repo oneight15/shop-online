@@ -1,0 +1,18 @@
+.section {
+  padding: 25px 0;
+}
+
+.section__title {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.section__title_visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
